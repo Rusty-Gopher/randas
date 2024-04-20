@@ -1,0 +1,22 @@
+[package]
+name = "randas"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+csv = "1.1"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0" # if you want to serialize to/from JSON
+bincode = "1.3.3" # for binary serialization
+chrono = { version = "0.4", features = ["serde"] }
+calamine = "0.24.0"
+libxlsxwriter-sys = "1.1.5"
+xlsxwriter = "0.6.0" 
+plotters = "0.3.5"
+rayon = "1.5.1"
+tempfile = "3.10.1"
+rusqlite = { version = "0.29.0", features = ["bundled"] }
+rand = { version = "0.8.5", features = ["small_rng"] }
+encoding_rs = "0.8.28"
