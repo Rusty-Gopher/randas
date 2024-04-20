@@ -1,7 +1,8 @@
 # Randas
 A dataframe library in rust
 
-This is a dataframe library in rust, i am converting one by one all the functions which i have been using in python panadas to rust, and thats why we have this library called randas.
+This is a dataframe library in rust, i am converting one by one all the functions which i have been using in python panadas to rust.
+Lack of creativity lead to the name randas, as in pandas in rust.
 
 
 
